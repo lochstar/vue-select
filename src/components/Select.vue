@@ -691,7 +691,7 @@
           }
           this.updateValue(option);
           this.$emit('option:selected', option);
-        } else if (this.deselectByOption && (this.clearable || this.multiple && this.val.length > 1)) {
+        } else if (this.deselectByOption && (this.clearable || this.multiple && this.value.length > 1)) {
           this.deselect(option)
         }
         this.onAfterSelect(option)
